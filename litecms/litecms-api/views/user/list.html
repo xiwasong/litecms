@@ -1,0 +1,14 @@
+@import cn.hn.java.cms.api.usr.bean.*
+@args List<User> userList
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+@for(User u: userList){
+@u.getName();
+}
+</body>
+</html>

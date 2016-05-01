@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="litecms-web">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="litecms-api-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/litecms-api/litecms-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="core-0.0.1-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/cn_hn_java_core/cn_hn_java_core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-rythm-1.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-rythm/spring-rythm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="litecms-web"/>
+        <property name="java-output-path" value="/litecms-web/target/classes"/>
+    </wb-module>
+</project-modules>

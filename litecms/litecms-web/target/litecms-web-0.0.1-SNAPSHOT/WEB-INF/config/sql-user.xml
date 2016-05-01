@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SqlConfig>
+	<query>
+		<!-- chart 超管取用户 -->
+		<sql id="getUsers">
+			select name from tb_user
+		</sql>
+	</query>
+	
+	
+	<insert>
+	</insert>
+		
+	<update>
+	</update>
+		
+	<delete>
+	</delete>
+</SqlConfig>

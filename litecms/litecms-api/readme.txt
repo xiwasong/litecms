@@ -1,0 +1,1 @@
+使用maven命令将依赖包复制到lib目录：dependency:copy-dependencies -DoutputDirectory=target/lib

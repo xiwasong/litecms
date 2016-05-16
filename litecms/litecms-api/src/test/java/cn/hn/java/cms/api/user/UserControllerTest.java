@@ -10,7 +10,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import cn.hn.java.cms.api.usr.UserController;
+import cn.hn.java.cms.api.admin.user.UserController;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
